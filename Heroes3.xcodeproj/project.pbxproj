@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3C74A1725F4C5E5000AD178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A1625F4C5E5000AD178 /* AppDelegate.swift */; };
+		E3C74A1925F4C5E5000AD178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A1825F4C5E5000AD178 /* SceneDelegate.swift */; };
+		E3C74A1B25F4C5E5000AD178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A1A25F4C5E5000AD178 /* ViewController.swift */; };
+		E3C74A1E25F4C5E5000AD178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C74A1C25F4C5E5000AD178 /* Main.storyboard */; };
+		E3C74A2125F4C5E5000AD178 /* Heroes3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A1F25F4C5E5000AD178 /* Heroes3.xcdatamodeld */; };
+		E3C74A2325F4C5E9000AD178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C74A2225F4C5E9000AD178 /* Assets.xcassets */; };
+		E3C74A2625F4C5E9000AD178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C74A2425F4C5E9000AD178 /* LaunchScreen.storyboard */; };
+		E3C74A3125F4C5E9000AD178 /* Heroes3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A3025F4C5E9000AD178 /* Heroes3Tests.swift */; };
+		E3C74A3C25F4C5E9000AD178 /* Heroes3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A3B25F4C5E9000AD178 /* Heroes3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3C74A2D25F4C5E9000AD178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3C74A0B25F4C5E5000AD178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C74A1225F4C5E5000AD178;
+			remoteInfo = Heroes3;
+		};
+		E3C74A3825F4C5E9000AD178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3C74A0B25F4C5E5000AD178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C74A1225F4C5E5000AD178;
+			remoteInfo = Heroes3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3C74A1325F4C5E5000AD178 /* Heroes3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heroes3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C74A1625F4C5E5000AD178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3C74A1825F4C5E5000AD178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E3C74A1A25F4C5E5000AD178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3C74A1D25F4C5E5000AD178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3C74A2025F4C5E5000AD178 /* Heroes3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Heroes3.xcdatamodel; sourceTree = "<group>"; };
+		E3C74A2225F4C5E9000AD178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3C74A2525F4C5E9000AD178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3C74A2725F4C5E9000AD178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C74A2C25F4C5E9000AD178 /* Heroes3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Heroes3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C74A3025F4C5E9000AD178 /* Heroes3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes3Tests.swift; sourceTree = "<group>"; };
+		E3C74A3225F4C5E9000AD178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C74A3725F4C5E9000AD178 /* Heroes3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Heroes3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C74A3B25F4C5E9000AD178 /* Heroes3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes3UITests.swift; sourceTree = "<group>"; };
+		E3C74A3D25F4C5E9000AD178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3C74A1025F4C5E5000AD178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C74A2925F4C5E9000AD178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C74A3425F4C5E9000AD178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3C74A0A25F4C5E5000AD178 = {
+			isa = PBXGroup;
+			children = (
+				E3C74A1525F4C5E5000AD178 /* Heroes3 */,
+				E3C74A2F25F4C5E9000AD178 /* Heroes3Tests */,
+				E3C74A3A25F4C5E9000AD178 /* Heroes3UITests */,
+				E3C74A1425F4C5E5000AD178 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3C74A1425F4C5E5000AD178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3C74A1325F4C5E5000AD178 /* Heroes3.app */,
+				E3C74A2C25F4C5E9000AD178 /* Heroes3Tests.xctest */,
+				E3C74A3725F4C5E9000AD178 /* Heroes3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3C74A1525F4C5E5000AD178 /* Heroes3 */ = {
+			isa = PBXGroup;
+			children = (
+				E3C74A1625F4C5E5000AD178 /* AppDelegate.swift */,
+				E3C74A1825F4C5E5000AD178 /* SceneDelegate.swift */,
+				E3C74A1A25F4C5E5000AD178 /* ViewController.swift */,
+				E3C74A1C25F4C5E5000AD178 /* Main.storyboard */,
+				E3C74A2225F4C5E9000AD178 /* Assets.xcassets */,
+				E3C74A2425F4C5E9000AD178 /* LaunchScreen.storyboard */,
+				E3C74A2725F4C5E9000AD178 /* Info.plist */,
+				E3C74A1F25F4C5E5000AD178 /* Heroes3.xcdatamodeld */,
+			);
+			path = Heroes3;
+			sourceTree = "<group>";
+		};
+		E3C74A2F25F4C5E9000AD178 /* Heroes3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E3C74A3025F4C5E9000AD178 /* Heroes3Tests.swift */,
+				E3C74A3225F4C5E9000AD178 /* Info.plist */,
+			);
+			path = Heroes3Tests;
+			sourceTree = "<group>";
+		};
+		E3C74A3A25F4C5E9000AD178 /* Heroes3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3C74A3B25F4C5E9000AD178 /* Heroes3UITests.swift */,
+				E3C74A3D25F4C5E9000AD178 /* Info.plist */,
+			);
+			path = Heroes3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3C74A1225F4C5E5000AD178 /* Heroes3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C74A4025F4C5E9000AD178 /* Build configuration list for PBXNativeTarget "Heroes3" */;
+			buildPhases = (
+				E3C74A0F25F4C5E5000AD178 /* Sources */,
+				E3C74A1025F4C5E5000AD178 /* Frameworks */,
+				E3C74A1125F4C5E5000AD178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heroes3;
+			productName = Heroes3;
+			productReference = E3C74A1325F4C5E5000AD178 /* Heroes3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3C74A2B25F4C5E9000AD178 /* Heroes3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C74A4325F4C5E9000AD178 /* Build configuration list for PBXNativeTarget "Heroes3Tests" */;
+			buildPhases = (
+				E3C74A2825F4C5E9000AD178 /* Sources */,
+				E3C74A2925F4C5E9000AD178 /* Frameworks */,
+				E3C74A2A25F4C5E9000AD178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C74A2E25F4C5E9000AD178 /* PBXTargetDependency */,
+			);
+			name = Heroes3Tests;
+			productName = Heroes3Tests;
+			productReference = E3C74A2C25F4C5E9000AD178 /* Heroes3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3C74A3625F4C5E9000AD178 /* Heroes3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C74A4625F4C5E9000AD178 /* Build configuration list for PBXNativeTarget "Heroes3UITests" */;
+			buildPhases = (
+				E3C74A3325F4C5E9000AD178 /* Sources */,
+				E3C74A3425F4C5E9000AD178 /* Frameworks */,
+				E3C74A3525F4C5E9000AD178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C74A3925F4C5E9000AD178 /* PBXTargetDependency */,
+			);
+			name = Heroes3UITests;
+			productName = Heroes3UITests;
+			productReference = E3C74A3725F4C5E9000AD178 /* Heroes3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3C74A0B25F4C5E5000AD178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E3C74A1225F4C5E5000AD178 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E3C74A2B25F4C5E9000AD178 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E3C74A1225F4C5E5000AD178;
+					};
+					E3C74A3625F4C5E9000AD178 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E3C74A1225F4C5E5000AD178;
+					};
+				};
+			};
+			buildConfigurationList = E3C74A0E25F4C5E5000AD178 /* Build configuration list for PBXProject "Heroes3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3C74A0A25F4C5E5000AD178;
+			productRefGroup = E3C74A1425F4C5E5000AD178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3C74A1225F4C5E5000AD178 /* Heroes3 */,
+				E3C74A2B25F4C5E9000AD178 /* Heroes3Tests */,
+				E3C74A3625F4C5E9000AD178 /* Heroes3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3C74A1125F4C5E5000AD178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C74A2625F4C5E9000AD178 /* LaunchScreen.storyboard in Resources */,
+				E3C74A2325F4C5E9000AD178 /* Assets.xcassets in Resources */,
+				E3C74A1E25F4C5E5000AD178 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C74A2A25F4C5E9000AD178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C74A3525F4C5E9000AD178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3C74A0F25F4C5E5000AD178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C74A1B25F4C5E5000AD178 /* ViewController.swift in Sources */,
+				E3C74A2125F4C5E5000AD178 /* Heroes3.xcdatamodeld in Sources */,
+				E3C74A1725F4C5E5000AD178 /* AppDelegate.swift in Sources */,
+				E3C74A1925F4C5E5000AD178 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C74A2825F4C5E9000AD178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C74A3125F4C5E9000AD178 /* Heroes3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C74A3325F4C5E9000AD178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C74A3C25F4C5E9000AD178 /* Heroes3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3C74A2E25F4C5E9000AD178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C74A1225F4C5E5000AD178 /* Heroes3 */;
+			targetProxy = E3C74A2D25F4C5E9000AD178 /* PBXContainerItemProxy */;
+		};
+		E3C74A3925F4C5E9000AD178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C74A1225F4C5E5000AD178 /* Heroes3 */;
+			targetProxy = E3C74A3825F4C5E9000AD178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3C74A1C25F4C5E5000AD178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3C74A1D25F4C5E5000AD178 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3C74A2425F4C5E9000AD178 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3C74A2525F4C5E9000AD178 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3C74A3E25F4C5E9000AD178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3C74A3F25F4C5E9000AD178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3C74A4125F4C5E9000AD178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBK58PZA83;
+				INFOPLIST_FILE = Heroes3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anggipgomis.Heroes3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3C74A4225F4C5E9000AD178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBK58PZA83;
+				INFOPLIST_FILE = Heroes3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anggipgomis.Heroes3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3C74A4425F4C5E9000AD178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBK58PZA83;
+				INFOPLIST_FILE = Heroes3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anggipgomis.Heroes3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heroes3.app/Heroes3";
+			};
+			name = Debug;
+		};
+		E3C74A4525F4C5E9000AD178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBK58PZA83;
+				INFOPLIST_FILE = Heroes3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anggipgomis.Heroes3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heroes3.app/Heroes3";
+			};
+			name = Release;
+		};
+		E3C74A4725F4C5E9000AD178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBK58PZA83;
+				INFOPLIST_FILE = Heroes3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anggipgomis.Heroes3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Heroes3;
+			};
+			name = Debug;
+		};
+		E3C74A4825F4C5E9000AD178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBK58PZA83;
+				INFOPLIST_FILE = Heroes3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anggipgomis.Heroes3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Heroes3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3C74A0E25F4C5E5000AD178 /* Build configuration list for PBXProject "Heroes3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C74A3E25F4C5E9000AD178 /* Debug */,
+				E3C74A3F25F4C5E9000AD178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C74A4025F4C5E9000AD178 /* Build configuration list for PBXNativeTarget "Heroes3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C74A4125F4C5E9000AD178 /* Debug */,
+				E3C74A4225F4C5E9000AD178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C74A4325F4C5E9000AD178 /* Build configuration list for PBXNativeTarget "Heroes3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C74A4425F4C5E9000AD178 /* Debug */,
+				E3C74A4525F4C5E9000AD178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C74A4625F4C5E9000AD178 /* Build configuration list for PBXNativeTarget "Heroes3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C74A4725F4C5E9000AD178 /* Debug */,
+				E3C74A4825F4C5E9000AD178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E3C74A1F25F4C5E5000AD178 /* Heroes3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3C74A2025F4C5E5000AD178 /* Heroes3.xcdatamodel */,
+			);
+			currentVersion = E3C74A2025F4C5E5000AD178 /* Heroes3.xcdatamodel */;
+			path = Heroes3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E3C74A0B25F4C5E5000AD178 /* Project object */;
+}
