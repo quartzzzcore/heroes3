@@ -1,4 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CHero" representedClassName="CHero" syncable="YES">
+        <attribute name="armor" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="attribute" optional="YES" attributeType="String"/>
+        <attribute name="health" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="img" optional="YES" attributeType="String"/>
+        <attribute name="mana" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="maxAttack" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="minAttack" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="speed" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="roles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CRole" inverseName="hero" inverseEntity="CRole"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="CRole" representedClassName="CRole" syncable="YES">
+        <attribute name="carry" optional="YES" attributeType="String"/>
+        <attribute name="disabler" optional="YES" attributeType="String"/>
+        <attribute name="durable" optional="YES" attributeType="String"/>
+        <attribute name="escape" optional="YES" attributeType="String"/>
+        <attribute name="initiator" optional="YES" attributeType="String"/>
+        <attribute name="jungler" optional="YES" attributeType="String"/>
+        <attribute name="nuker" optional="YES" attributeType="String"/>
+        <attribute name="pusher" optional="YES" attributeType="String"/>
+        <attribute name="support" optional="YES" attributeType="String"/>
+        <relationship name="hero" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CHero" inverseName="roles" inverseEntity="CHero"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="carry"/>
+                <constraint value="disabler"/>
+                <constraint value="durable"/>
+                <constraint value="escape"/>
+                <constraint value="initiator"/>
+                <constraint value="jungler"/>
+                <constraint value="nuker"/>
+                <constraint value="pusher"/>
+                <constraint value="support"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="CHero" positionX="-63" positionY="-18" width="128" height="209"/>
+        <element name="CRole" positionX="-54" positionY="72" width="128" height="179"/>
+    </elements>
 </model>

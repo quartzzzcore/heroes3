@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ADB780082382CDCB09E65F8 /* Pods_Heroes3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90E6E0B3799CD1AF93FD73E /* Pods_Heroes3.framework */; };
+		39C3390329E0CCB557DCEF45 /* Pods_Heroes3_Heroes3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31C4F7935C7EB2B7BC95BD /* Pods_Heroes3_Heroes3UITests.framework */; };
+		48A883632B76A47B4C73EC9B /* Pods_Heroes3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4B1081448256D4496915BF /* Pods_Heroes3Tests.framework */; };
+		E3C59B5925F4CA30002A12DB /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C59B5825F4CA30002A12DB /* Hero.swift */; };
 		E3C74A1725F4C5E5000AD178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A1625F4C5E5000AD178 /* AppDelegate.swift */; };
 		E3C74A1925F4C5E5000AD178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A1825F4C5E5000AD178 /* SceneDelegate.swift */; };
 		E3C74A1B25F4C5E5000AD178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A1A25F4C5E5000AD178 /* ViewController.swift */; };
@@ -16,6 +20,14 @@
 		E3C74A2625F4C5E9000AD178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C74A2425F4C5E9000AD178 /* LaunchScreen.storyboard */; };
 		E3C74A3125F4C5E9000AD178 /* Heroes3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A3025F4C5E9000AD178 /* Heroes3Tests.swift */; };
 		E3C74A3C25F4C5E9000AD178 /* Heroes3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A3B25F4C5E9000AD178 /* Heroes3UITests.swift */; };
+		E3C74A5025F4C62B000AD178 /* HeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A4C25F4C62B000AD178 /* HeroesViewController.swift */; };
+		E3C74A5125F4C62B000AD178 /* HeroDetailVewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A4D25F4C62B000AD178 /* HeroDetailVewController.swift */; };
+		E3C74A5225F4C62B000AD178 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A4E25F4C62B000AD178 /* CategoryTableViewCell.swift */; };
+		E3C74A5325F4C62B000AD178 /* HeroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74A4F25F4C62B000AD178 /* HeroCollectionViewCell.swift */; };
+		E3E5399525F52A06000205F5 /* CHero+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E5399325F52A06000205F5 /* CHero+CoreDataClass.swift */; };
+		E3E5399625F52A06000205F5 /* CRole+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E5399425F52A06000205F5 /* CRole+CoreDataProperties.swift */; };
+		E3E5399725F52A06000205F5 /* CRole+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E5399125F52A06000205F5 /* CRole+CoreDataClass.swift */; };
+		E3E5399825F52A06000205F5 /* CHero+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E5399225F52A06000205F5 /* CHero+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0CA51D1F5311B5A278E6B7 /* Pods-Heroes3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heroes3Tests.debug.xcconfig"; path = "Target Support Files/Pods-Heroes3Tests/Pods-Heroes3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A31C4F7935C7EB2B7BC95BD /* Pods_Heroes3_Heroes3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heroes3_Heroes3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA8FF56FE7A67307D1ED187 /* Pods-Heroes3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heroes3.debug.xcconfig"; path = "Target Support Files/Pods-Heroes3/Pods-Heroes3.debug.xcconfig"; sourceTree = "<group>"; };
+		58A5137186FF4A6EF042EC1F /* Pods-Heroes3-Heroes3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heroes3-Heroes3UITests.debug.xcconfig"; path = "Target Support Files/Pods-Heroes3-Heroes3UITests/Pods-Heroes3-Heroes3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59F41CBDE546BA93727C35AC /* Pods-Heroes3-Heroes3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heroes3-Heroes3UITests.release.xcconfig"; path = "Target Support Files/Pods-Heroes3-Heroes3UITests/Pods-Heroes3-Heroes3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A90E6E0B3799CD1AF93FD73E /* Pods_Heroes3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heroes3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E7BC8707ABC88C0182E61E /* Pods-Heroes3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heroes3Tests.release.xcconfig"; path = "Target Support Files/Pods-Heroes3Tests/Pods-Heroes3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E3C59B5825F4CA30002A12DB /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		E3C74A1325F4C5E5000AD178 /* Heroes3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heroes3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C74A1625F4C5E5000AD178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3C74A1825F4C5E5000AD178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +71,16 @@
 		E3C74A3725F4C5E9000AD178 /* Heroes3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Heroes3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C74A3B25F4C5E9000AD178 /* Heroes3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes3UITests.swift; sourceTree = "<group>"; };
 		E3C74A3D25F4C5E9000AD178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C74A4C25F4C62B000AD178 /* HeroesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesViewController.swift; sourceTree = "<group>"; };
+		E3C74A4D25F4C62B000AD178 /* HeroDetailVewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetailVewController.swift; sourceTree = "<group>"; };
+		E3C74A4E25F4C62B000AD178 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		E3C74A4F25F4C62B000AD178 /* HeroCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCollectionViewCell.swift; sourceTree = "<group>"; };
+		E3E5399125F52A06000205F5 /* CRole+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CRole+CoreDataClass.swift"; path = "/Users/anggiputragomis/Code/Heroes3/Heroes3/Model/CRole+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		E3E5399225F52A06000205F5 /* CHero+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CHero+CoreDataProperties.swift"; path = "/Users/anggiputragomis/Code/Heroes3/Heroes3/Model/CHero+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		E3E5399325F52A06000205F5 /* CHero+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CHero+CoreDataClass.swift"; path = "/Users/anggiputragomis/Code/Heroes3/Heroes3/Model/CHero+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		E3E5399425F52A06000205F5 /* CRole+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CRole+CoreDataProperties.swift"; path = "/Users/anggiputragomis/Code/Heroes3/Heroes3/Model/CRole+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		EA104AEC4B823BE7ED1DAF87 /* Pods-Heroes3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heroes3.release.xcconfig"; path = "Target Support Files/Pods-Heroes3/Pods-Heroes3.release.xcconfig"; sourceTree = "<group>"; };
+		FB4B1081448256D4496915BF /* Pods_Heroes3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heroes3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADB780082382CDCB09E65F8 /* Pods_Heroes3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A883632B76A47B4C73EC9B /* Pods_Heroes3Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +104,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C3390329E0CCB557DCEF45 /* Pods_Heroes3_Heroes3UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		269C8366FA2E5173DE54E5EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A90E6E0B3799CD1AF93FD73E /* Pods_Heroes3.framework */,
+				1A31C4F7935C7EB2B7BC95BD /* Pods_Heroes3_Heroes3UITests.framework */,
+				FB4B1081448256D4496915BF /* Pods_Heroes3Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43FD5F4282DE4D3100F345F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8FF56FE7A67307D1ED187 /* Pods-Heroes3.debug.xcconfig */,
+				EA104AEC4B823BE7ED1DAF87 /* Pods-Heroes3.release.xcconfig */,
+				58A5137186FF4A6EF042EC1F /* Pods-Heroes3-Heroes3UITests.debug.xcconfig */,
+				59F41CBDE546BA93727C35AC /* Pods-Heroes3-Heroes3UITests.release.xcconfig */,
+				0D0CA51D1F5311B5A278E6B7 /* Pods-Heroes3Tests.debug.xcconfig */,
+				E1E7BC8707ABC88C0182E61E /* Pods-Heroes3Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3C59B5425F4C9BD002A12DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3C59B5825F4CA30002A12DB /* Hero.swift */,
+				E3E5399125F52A06000205F5 /* CRole+CoreDataClass.swift */,
+				E3E5399425F52A06000205F5 /* CRole+CoreDataProperties.swift */,
+				E3E5399325F52A06000205F5 /* CHero+CoreDataClass.swift */,
+				E3E5399225F52A06000205F5 /* CHero+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E3C74A0A25F4C5E5000AD178 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +153,8 @@
 				E3C74A2F25F4C5E9000AD178 /* Heroes3Tests */,
 				E3C74A3A25F4C5E9000AD178 /* Heroes3UITests */,
 				E3C74A1425F4C5E5000AD178 /* Products */,
+				43FD5F4282DE4D3100F345F9 /* Pods */,
+				269C8366FA2E5173DE54E5EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +174,11 @@
 				E3C74A1625F4C5E5000AD178 /* AppDelegate.swift */,
 				E3C74A1825F4C5E5000AD178 /* SceneDelegate.swift */,
 				E3C74A1A25F4C5E5000AD178 /* ViewController.swift */,
+				E3C74A4E25F4C62B000AD178 /* CategoryTableViewCell.swift */,
+				E3C74A4F25F4C62B000AD178 /* HeroCollectionViewCell.swift */,
+				E3C74A4D25F4C62B000AD178 /* HeroDetailVewController.swift */,
+				E3C74A4C25F4C62B000AD178 /* HeroesViewController.swift */,
+				E3C59B5425F4C9BD002A12DB /* Model */,
 				E3C74A1C25F4C5E5000AD178 /* Main.storyboard */,
 				E3C74A2225F4C5E9000AD178 /* Assets.xcassets */,
 				E3C74A2425F4C5E9000AD178 /* LaunchScreen.storyboard */,
@@ -138,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3C74A4025F4C5E9000AD178 /* Build configuration list for PBXNativeTarget "Heroes3" */;
 			buildPhases = (
+				A8D3039C4F1F703A9E977B54 /* [CP] Check Pods Manifest.lock */,
 				E3C74A0F25F4C5E5000AD178 /* Sources */,
 				E3C74A1025F4C5E5000AD178 /* Frameworks */,
 				E3C74A1125F4C5E5000AD178 /* Resources */,
+				D24C7C060954BAB6C9ACE093 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3C74A4325F4C5E9000AD178 /* Build configuration list for PBXNativeTarget "Heroes3Tests" */;
 			buildPhases = (
+				2484FD51FB4EC2A7AF03DFF4 /* [CP] Check Pods Manifest.lock */,
 				E3C74A2825F4C5E9000AD178 /* Sources */,
 				E3C74A2925F4C5E9000AD178 /* Frameworks */,
 				E3C74A2A25F4C5E9000AD178 /* Resources */,
@@ -173,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3C74A4625F4C5E9000AD178 /* Build configuration list for PBXNativeTarget "Heroes3UITests" */;
 			buildPhases = (
+				DC040DAA815BA5FADCE9CDE6 /* [CP] Check Pods Manifest.lock */,
 				E3C74A3325F4C5E9000AD178 /* Sources */,
 				E3C74A3425F4C5E9000AD178 /* Frameworks */,
 				E3C74A3525F4C5E9000AD178 /* Resources */,
+				8B8805DDCC8B4E0BA7C4839A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +336,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2484FD51FB4EC2A7AF03DFF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Heroes3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B8805DDCC8B4E0BA7C4839A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Heroes3-Heroes3UITests/Pods-Heroes3-Heroes3UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Heroes3-Heroes3UITests/Pods-Heroes3-Heroes3UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Heroes3-Heroes3UITests/Pods-Heroes3-Heroes3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D3039C4F1F703A9E977B54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Heroes3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D24C7C060954BAB6C9ACE093 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Heroes3/Pods-Heroes3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Heroes3/Pods-Heroes3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Heroes3/Pods-Heroes3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC040DAA815BA5FADCE9CDE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Heroes3-Heroes3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3C74A0F25F4C5E5000AD178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,8 +446,17 @@
 			files = (
 				E3C74A1B25F4C5E5000AD178 /* ViewController.swift in Sources */,
 				E3C74A2125F4C5E5000AD178 /* Heroes3.xcdatamodeld in Sources */,
+				E3C59B5925F4CA30002A12DB /* Hero.swift in Sources */,
 				E3C74A1725F4C5E5000AD178 /* AppDelegate.swift in Sources */,
+				E3C74A5125F4C62B000AD178 /* HeroDetailVewController.swift in Sources */,
+				E3E5399825F52A06000205F5 /* CHero+CoreDataProperties.swift in Sources */,
+				E3C74A5325F4C62B000AD178 /* HeroCollectionViewCell.swift in Sources */,
+				E3C74A5225F4C62B000AD178 /* CategoryTableViewCell.swift in Sources */,
 				E3C74A1925F4C5E5000AD178 /* SceneDelegate.swift in Sources */,
+				E3C74A5025F4C62B000AD178 /* HeroesViewController.swift in Sources */,
+				E3E5399725F52A06000205F5 /* CRole+CoreDataClass.swift in Sources */,
+				E3E5399625F52A06000205F5 /* CRole+CoreDataProperties.swift in Sources */,
+				E3E5399525F52A06000205F5 /* CHero+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +629,7 @@
 		};
 		E3C74A4125F4C5E9000AD178 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA8FF56FE7A67307D1ED187 /* Pods-Heroes3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +649,7 @@
 		};
 		E3C74A4225F4C5E9000AD178 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA104AEC4B823BE7ED1DAF87 /* Pods-Heroes3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +669,7 @@
 		};
 		E3C74A4425F4C5E9000AD178 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0CA51D1F5311B5A278E6B7 /* Pods-Heroes3Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +692,7 @@
 		};
 		E3C74A4525F4C5E9000AD178 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E7BC8707ABC88C0182E61E /* Pods-Heroes3Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +715,7 @@
 		};
 		E3C74A4725F4C5E9000AD178 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A5137186FF4A6EF042EC1F /* Pods-Heroes3-Heroes3UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +736,7 @@
 		};
 		E3C74A4825F4C5E9000AD178 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F41CBDE546BA93727C35AC /* Pods-Heroes3-Heroes3UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

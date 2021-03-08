@@ -1,0 +1,6 @@
+framework module Pods_Heroes3_Heroes3UITests {
+  umbrella header "Pods-Heroes3-Heroes3UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

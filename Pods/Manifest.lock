@@ -1,0 +1,16 @@
+PODS:
+  - KFSwiftImageLoader (4.0.0)
+
+DEPENDENCIES:
+  - KFSwiftImageLoader (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - KFSwiftImageLoader
+
+SPEC CHECKSUMS:
+  KFSwiftImageLoader: f6edb1af1c9ed23906509d4db7e00edc1086228b
+
+PODFILE CHECKSUM: a0fbabc1f23895074dbd9247f954c66c3a043470
+
+COCOAPODS: 1.10.1
